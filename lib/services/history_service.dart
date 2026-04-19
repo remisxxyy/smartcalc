@@ -20,6 +20,23 @@ class HistoryService {
     });
   }
 
+  static Future<void> clearAll() async {
+    final uid = _uid;
+
+    if (uid == null) {
+      return;
+    }
+
+    final snapshot = await _db
+        .collection("history")
+        .where("userId", isEqualTo: uid)
+        .get();
+
+    for (final doc in snapshot.docs) {
+      await doc.reference.delete();
+    }
+  }
+
   static Stream<QuerySnapshot> getHistory() {
     final uid = _uid;
 
