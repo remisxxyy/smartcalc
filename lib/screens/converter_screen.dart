@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ConverterPage extends StatefulWidget {
-  const ConverterPage({super.key});
+class ConverterScreen extends StatefulWidget {
+  const ConverterScreen({super.key});
 
   @override
-  State<ConverterPage> createState() => _ConverterPageState();
+  State<ConverterScreen> createState() => _ConverterPageState();
 }
 
-class _ConverterPageState extends State<ConverterPage> {
+class _ConverterPageState extends State<ConverterScreen> {
   final TextEditingController kmController = TextEditingController();
   String result = "0";
 

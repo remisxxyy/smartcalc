@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-import 'calculator_controller.dart';
-import 'converter_page.dart';
-import 'history_page.dart';
+import '../controllers/calculator_controller.dart';
+import 'converter_screen.dart';
+import 'history_screen.dart';
 
-class CalculatorPage extends StatefulWidget {
-  const CalculatorPage({super.key});
+class CalculatorScreen extends StatefulWidget {
+  const CalculatorScreen({super.key});
 
   @override
-  State<CalculatorPage> createState() => _CalculatorPageState();
+  State<CalculatorScreen> createState() => _CalculatorScreenState();
 }
 
-class _CalculatorPageState extends State<CalculatorPage> {
+class _CalculatorScreenState extends State<CalculatorScreen> {
   final CalculatorController controller = CalculatorController();
   final TextEditingController expressionController = TextEditingController();
 
@@ -71,30 +71,6 @@ class _CalculatorPageState extends State<CalculatorPage> {
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
               ),
-            ),
-            const SizedBox(height: 30),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) => const ConverterPage(),
-                  ),
-                );
-              },
-              child: const Text("KM to Mile Converter"),
-            ),
-            const SizedBox(height: 12),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) => const HistoryPage(),
-                  ),
-                );
-              },
-              child: const Text("History"),
             ),
           ],
         ),

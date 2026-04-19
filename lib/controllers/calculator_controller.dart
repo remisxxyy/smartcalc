@@ -1,5 +1,5 @@
 import 'package:math_expressions/math_expressions.dart';
-import 'history_service.dart';
+import '../services/history_service.dart';
 
 class CalculatorController {
   Future<String> calculateExpression(String expression) async {
