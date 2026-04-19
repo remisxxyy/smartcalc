@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "636088237611",
+    "project_id": "basic-calculator-karina",
+    "storage_bucket": "basic-calculator-karina.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636088237611:android:96ea9fcce202ab701bf46e",
+        "android_client_info": {
+          "package_name": "com.example.basic_calculator_ui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADKskc3QKJU4irQjey7b57kQWJi56UxbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
