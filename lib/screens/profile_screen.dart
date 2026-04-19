@@ -16,10 +16,6 @@ class ProfileScreen extends StatelessWidget {
         final user = snapshot.data;
 
         return Scaffold(
-          appBar: AppBar(
-            title: const Text('Profile'),
-            centerTitle: true,
-          ),
           body: SafeArea(
             child: SingleChildScrollView(
               padding: const EdgeInsets.all(16),

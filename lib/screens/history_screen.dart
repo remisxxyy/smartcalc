@@ -28,10 +28,6 @@ class HistoryScreen extends StatelessWidget {
     final theme = Theme.of(context);
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('History'),
-        centerTitle: true,
-      ),
       body: SafeArea(
         child: Column(
           children: [

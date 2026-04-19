@@ -62,10 +62,6 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
     final theme = Theme.of(context);
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('SmartCalc'),
-        centerTitle: true,
-      ),
       body: SafeArea(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(16),

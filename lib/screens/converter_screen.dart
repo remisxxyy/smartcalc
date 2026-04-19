@@ -70,10 +70,6 @@ class _ConverterScreenState extends State<ConverterScreen> {
     final theme = Theme.of(context);
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Converter'),
-        centerTitle: true,
-      ),
       body: SafeArea(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(16),
