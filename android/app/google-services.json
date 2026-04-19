@@ -12,7 +12,20 @@
           "package_name": "com.example.basic_calculator_ui"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "636088237611-r2s1pvqlcg61htsd0ed4jrg12jor38cn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.basic_calculator_ui",
+            "certificate_hash": "c3821c5de229dd73561582e0e2ce36ac204edcb6"
+          }
+        },
+        {
+          "client_id": "636088237611-i1310jcbtppdsssqkrc9tbaaofd5f9ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyADKskc3QKJU4irQjey7b57kQWJi56UxbI"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636088237611-i1310jcbtppdsssqkrc9tbaaofd5f9ps.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "636088237611-amokmtpsm3rbqa7rh6k8k2ikecffbaih.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.basicCalculatorUi"
+              }
+            }
+          ]
         }
       }
     }
